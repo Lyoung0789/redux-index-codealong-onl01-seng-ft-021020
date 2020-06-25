@@ -1,5 +1,5 @@
 export default function manageTodo(state = {
-  todos: [],
+  todos: ["work out", "do something"],
 }, action) {
   switch (action.type) {
     case 'ADD_TODO':
